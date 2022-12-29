@@ -16,7 +16,7 @@ namespace BridgeSample.MailService
         public virtual void Send(EmailInforMationDto email) 
         {
             mailServiceImplementor.SendMail(email.Reciver, email.Title, email.Message);
-        }
+         }
     }
 
     public class RefinedMailService : MailServiceAbstraction
